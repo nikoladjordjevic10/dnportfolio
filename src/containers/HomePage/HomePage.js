@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import HomePageStyle from "./style";
 import HeaderBigLogo from "../../layout/HeaderBigLogo/HeaderBigLogo";
+import LogoPage from "../LogoPage/LogoPage";
 
 const HomePage = () => {
+  const [openLogoPage, setOpenLogoPage] = useState(false);
   return (
     <HomePageStyle>
-      <HeaderBigLogo />
+      <HeaderBigLogo
+        openLogoPage={openLogoPage}
+        setOpenLogoPage={setOpenLogoPage}
+      />
       <div className="homePageMainHero">
         <div className="homePageMainHeroImage">
           <img src="images/heroN.png" alt="heroN" />
@@ -26,7 +31,7 @@ const HomePage = () => {
       </div>
       <div className="homePageSecondaryHero">
         <div className="homePageSecondaryHeroImage">
-          <img src="images/heroD.png" alt="heroDot" />
+          <img src="images/heroD.png" alt="heroD" />
         </div>
       </div>
       <div className="homePageWrapper">
@@ -39,6 +44,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+      <LogoPage openLogoPage={openLogoPage} setOpenLogoPage={setOpenLogoPage} />
     </HomePageStyle>
   );
 };

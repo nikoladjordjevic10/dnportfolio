@@ -24,6 +24,7 @@ export default styled.div`
     .homePageSecondaryHeroImage {
       position: absolute;
       right: 0;
+      padding-bottom: 4rem;
       img {
         width: 100%;
       }
@@ -58,22 +59,3 @@ export default styled.div`
     }
   }
 `;
-
-// .homePageHeroProfile {
-//   display: flex;
-//   justify-content: space-between;
-//   padding-top: 4rem;
-//   .homePageHeroProfileD {
-//     position: absolute;
-//     right: 0;
-//     padding-bottom: 4rem;
-//   }
-//   .homePageHeroProfileImage {
-//     padding-top: 5.8rem;
-//     width: 10rem;
-
-//     img {
-//       width: 100%;
-//     }
-//   }
-// }

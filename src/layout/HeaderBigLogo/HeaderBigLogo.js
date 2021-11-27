@@ -2,16 +2,20 @@ import React, { useState } from "react";
 import HeaderStyle from "./style";
 import MainMenu from "../../components/MainMenu/MainMenu";
 
-const HeaderBigLogo = () => {
+const HeaderBigLogo = ({ openLogoPage, setOpenLogoPage }) => {
   const [openMainMenu, setOpenMainMenu] = useState(false);
 
   return (
     <HeaderStyle>
       <MainMenu openMainMenu={openMainMenu} setOpenMainMenu={setOpenMainMenu} />
+
       <div className="headerWrapper">
         <header className="headerMobile">
           <div className="headerLogo">
-            <div className="headerLogoImage">
+            <div
+              className="headerLogoImage"
+              onClick={() => setOpenLogoPage(!openLogoPage)}
+            >
               <img src="images/logoImg.png" alt="logoImg" />
             </div>
             <div className="headerLogoText">

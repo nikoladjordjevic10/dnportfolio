@@ -3,7 +3,7 @@ import styled from "styled-components";
 export default styled.div`
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   transition: transform 0.3s ease-in-out;
   transform: ${({ openMainMenu }) =>
     openMainMenu ? "translateX(0)" : "translateX(100%)"};
