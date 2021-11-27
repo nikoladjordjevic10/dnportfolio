@@ -8,7 +8,7 @@ const MainMenu = ({ openMainMenu, setOpenMainMenu }) => {
       <div className="mainMenuWrapper">
         <div className="mainMenuLogo">
           <div className="mainMenuLogoImage">
-            <img src="images/logoImgWhite.png" alt="logoImgWhite" />
+            <img src="images/logoSmallWhite.png" alt="logoSmallWhite" />
           </div>
           <div className="mainMenuLogoText">
             <img src="images/logoTextWhite.png" alt="logoTextWhite" />
@@ -22,16 +22,16 @@ const MainMenu = ({ openMainMenu, setOpenMainMenu }) => {
           />
         </div>
         <div className="mainMenuNavigation">
-          <Link to="/">
+          <Link to="/work" onClick={() => setOpenMainMenu(!openMainMenu)}>
             <li>work</li>
           </Link>
-          <Link to="/">
+          <Link to="/" onClick={() => setOpenMainMenu(!openMainMenu)}>
             <li>info</li>
           </Link>
-          <Link to="/">
+          <Link to="/" onClick={() => setOpenMainMenu(!openMainMenu)}>
             <li>contact</li>
           </Link>
-          <Link to="/">
+          <Link to="/" onClick={() => setOpenMainMenu(!openMainMenu)}>
             <li>lets work together</li>
           </Link>
         </div>

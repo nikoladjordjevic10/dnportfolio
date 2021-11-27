@@ -16,8 +16,8 @@ const LogoPage = ({ openLogoPage, setOpenLogoPage }) => {
             <div className="headerLogo">
               <div className="headerLogoImage">
                 <img
-                  src="images/logoImgTrans.png"
-                  alt="logoImg"
+                  src="images/logoBigTrans.png"
+                  alt="logoBigTrans"
                   onClick={() => {
                     setOpenLogoPage(!openLogoPage);
                     navigate("/");

@@ -1,25 +1,28 @@
 import React, { useState } from "react";
-import HeaderBigLogoStyle from "./style";
+import HeaderSmallLogoStyle from "./style";
+import { useNavigate } from "react-router-dom";
 import MainMenu from "../../components/MainMenu/MainMenu";
 
-const HeaderBigLogo = ({ openLogoPage, setOpenLogoPage }) => {
+const HeaderSmallLogo = () => {
   const [openMainMenu, setOpenMainMenu] = useState(false);
+  const navigate = useNavigate();
 
   return (
-    <HeaderBigLogoStyle>
+    <HeaderSmallLogoStyle>
       <MainMenu openMainMenu={openMainMenu} setOpenMainMenu={setOpenMainMenu} />
 
       <div className="headerWrapper">
         <header className="headerMobile">
           <div className="headerLogo">
-            <div
-              className="headerLogoImage"
-              onClick={() => setOpenLogoPage(!openLogoPage)}
-            >
-              <img src="images/logoBig.png" alt="logoBig" />
+            <div className="headerLogoImage">
+              <img
+                src="images/logoSmall.png"
+                alt="logoSmall "
+                onClick={() => navigate("/")}
+              />
             </div>
             <div className="headerLogoText">
-              <img src="images/logoText.png" alt="logoText" />
+              <img src="images/logoTextCaps.png" alt="logoTextCaps" />
             </div>
           </div>
           <div className="headerMenu">
@@ -31,8 +34,8 @@ const HeaderBigLogo = ({ openLogoPage, setOpenLogoPage }) => {
           </div>
         </header>
       </div>
-    </HeaderBigLogoStyle>
+    </HeaderSmallLogoStyle>
   );
 };
 
-export default HeaderBigLogo;
+export default HeaderSmallLogo;
