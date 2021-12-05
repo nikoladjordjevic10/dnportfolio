@@ -63,6 +63,9 @@ const LogoPage = ({ openLogoPage, setOpenLogoPage }) => {
             <img src="images/logoBuild8.png" alt="logoBuild8" />
           </div>
         </div>
+        <div className="hlgrey">
+          <img src="images/HLgrey.png" alt="HLgrey" />
+        </div>
       </div>
     </LogoPageStyle>
   );

@@ -34,7 +34,7 @@ const MainMenu = ({ openMainMenu, setOpenMainMenu }) => {
           <Link to="/work" onClick={() => setOpenMainMenu(!openMainMenu)}>
             <li>{translation.work[1]}</li>
           </Link>
-          <Link to="/" onClick={() => setOpenMainMenu(!openMainMenu)}>
+          <Link to="/info" onClick={() => setOpenMainMenu(!openMainMenu)}>
             <li>{translation.info[1]}</li>
           </Link>
           <Link to="/" onClick={() => setOpenMainMenu(!openMainMenu)}>
