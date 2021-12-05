@@ -45,10 +45,10 @@ export default styled.div`
       font-size: 0.9rem;
       text-transform: uppercase;
       padding-top: 5rem;
-      a {
+      span {
         color: white;
       }
-      a:first-child {
+      span:first-child {
         margin-right: 2rem;
       }
     }
