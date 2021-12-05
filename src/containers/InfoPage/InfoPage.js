@@ -52,10 +52,13 @@ const InfoPage = () => {
         </div>
         <div className="infoPageGallery">
           <div className="infoPageImage">
-            <img src="images/infoPageNewspaper.png" alt="infoPageNewspaper" />
+            <img
+              src="images/info/infoPageNewspaper.png"
+              alt="infoPageNewspaper"
+            />
           </div>
           <div className="infoPageVideo">
-            <img src="images/infoPageVideo.png" alt="infoPageVideo" />
+            <img src="images/info/infoPageVideo.png" alt="infoPageVideo" />
           </div>
         </div>
         <div className="infoPageAbout">

@@ -12,32 +12,35 @@ const WorkPage = () => {
         <div className="workPageGrouping">
           <div className="workPageLogo">
             <Link to="/">
-              <img src="images/workLogo.png" alt="workLogo" />
+              <img src="images/work/workLogo.png" alt="workLogo" />
               <div className="workPageLogoTitle">logo</div>
             </Link>
           </div>
           <div className="workPageBranding">
             <Link to="/">
-              <img src="images/workBranding.png" alt="workBranding" />
+              <img src="images/work/workBranding.png" alt="workBranding" />
               <div className="workPageBrandingTitle">branding</div>
             </Link>
           </div>
           <div className="workPageWebDesign">
             <Link to="/">
-              <img src="images/workWebDesign.png" alt="workWebDesign" />
+              <img src="images/work/workWebDesign.png" alt="workWebDesign" />
               <div className="workPageWebDesignTitle">web design</div>
             </Link>
           </div>
           <div className="workPageComputerGraphic">
             <Link to="/">
               <img
-                src="images/workComputerGraphic.png"
+                src="images/work/workComputerGraphic.png"
                 alt="workComputerGraphic"
               />
               <div className="workPageComputerGraphicTitle">
                 computer graphic
               </div>
             </Link>
+          </div>
+          <div className="hlturquoise">
+            <img src="images/HLturquoise.png" alt="HLturquoise" />
           </div>
         </div>
       </div>

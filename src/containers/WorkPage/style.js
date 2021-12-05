@@ -50,5 +50,10 @@ export default styled.div`
         }
       }
     }
+    .hlturquoise {
+      padding-top: 0.5rem;
+      padding-bottom: 2rem;
+      text-align: center;
+    }
   }
 `;

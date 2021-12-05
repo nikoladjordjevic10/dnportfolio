@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import MainMenuStyle from "./style";
 import { Link } from "react-router-dom";
@@ -37,7 +37,7 @@ const MainMenu = ({ openMainMenu, setOpenMainMenu }) => {
           <Link to="/info" onClick={() => setOpenMainMenu(!openMainMenu)}>
             <li>{translation.info[1]}</li>
           </Link>
-          <Link to="/" onClick={() => setOpenMainMenu(!openMainMenu)}>
+          <Link to="/contact" onClick={() => setOpenMainMenu(!openMainMenu)}>
             <li>{translation.contact[1]}</li>
           </Link>
           <Link to="/" onClick={() => setOpenMainMenu(!openMainMenu)}>
