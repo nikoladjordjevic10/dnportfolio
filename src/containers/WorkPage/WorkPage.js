@@ -11,7 +11,7 @@ const WorkPage = () => {
         <div className="workPageTitle">work</div>
         <div className="workPageGrouping">
           <div className="workPageLogo">
-            <Link to="/">
+            <Link to="/work-logo">
               <img src="images/work/workLogo.png" alt="workLogo" />
               <div className="workPageLogoTitle">logo</div>
             </Link>

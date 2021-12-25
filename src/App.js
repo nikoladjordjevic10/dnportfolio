@@ -3,6 +3,7 @@ import HomePage from "./containers/HomePage/HomePage";
 import WorkPage from "./containers/WorkPage/WorkPage";
 import InfoPage from "./containers/InfoPage/InfoPage";
 import ContactPage from "./containers/ContactPage/ContactPage";
+import WorkLogoPage from "./containers/WorkLogoPage/WorkLogoPage";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/work" element={<WorkPage />}></Route>
           <Route path="/info" element={<InfoPage />}></Route>
           <Route path="/contact" element={<ContactPage />}></Route>
+          <Route path="/work-logo" element={<WorkLogoPage />}></Route>
         </Routes>
       </Router>
     </div>
