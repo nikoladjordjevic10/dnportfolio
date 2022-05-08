@@ -1,6 +1,7 @@
 import React from "react";
 import ContactPageStyle from "./style";
 import HeaderSmallLogo from "../../layout/HeaderSmallLogo";
+import BackToTopButton from "../../components/BackToTopButton/BackToTopButton";
 
 const ContactPage = () => {
   return (
@@ -78,6 +79,7 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
+      <BackToTopButton />
     </ContactPageStyle>
   );
 };

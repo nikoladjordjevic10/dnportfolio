@@ -2,6 +2,7 @@ import React from "react";
 import WorkLogoPageStyle from "./style";
 import HeaderSmallLogo from "../../layout/HeaderSmallLogo";
 import { Link } from "react-router-dom";
+import BackToTopButton from "../../components/BackToTopButton/BackToTopButton";
 
 const WorkLogoPage = () => {
   return (
@@ -11,10 +12,10 @@ const WorkLogoPage = () => {
         <div className="workLogoPageLinks">
           <img src="images/backArrow.png" alt="backArrow" />
           <Link to="/work">
-            <span>Work</span>
+            <span>work</span>
           </Link>
           <img src="images/delimiter.png" alt="delimiter" />
-          <span>Logo</span>
+          <span>logo</span>
         </div>
       </div>
       <div className="workLogoPageImages">
@@ -79,6 +80,7 @@ const WorkLogoPage = () => {
           <img src="images/work/logo/logo20.png" alt="logo20" />
         </div>
       </div>
+      <BackToTopButton />
     </WorkLogoPageStyle>
   );
 };

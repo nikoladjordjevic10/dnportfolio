@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import HomePageStyle from "./style";
 import HeaderBigLogo from "../../layout/HeaderBigLogo/HeaderBigLogo";
 import LogoPage from "../LogoPage/LogoPage";
+import BackToTopButton from "../../components/BackToTopButton/BackToTopButton";
 
 const HomePage = () => {
   const [openLogoPage, setOpenLogoPage] = useState(false);
@@ -45,6 +46,7 @@ const HomePage = () => {
         </div>
       </div>
       <LogoPage openLogoPage={openLogoPage} setOpenLogoPage={setOpenLogoPage} />
+      <BackToTopButton />
     </HomePageStyle>
   );
 };

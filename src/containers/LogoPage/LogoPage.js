@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import LogoPageStyle from "./style";
 import MainMenu from "../../components/MainMenu/MainMenu";
 import { useNavigate } from "react-router-dom";
+import BackToTopButton from "../../components/BackToTopButton/BackToTopButton";
 
 const LogoPage = ({ openLogoPage, setOpenLogoPage }) => {
   const [openMainMenu, setOpenMainMenu] = useState(false);
@@ -67,6 +68,7 @@ const LogoPage = ({ openLogoPage, setOpenLogoPage }) => {
           <img src="images/HLgrey.png" alt="HLgrey" />
         </div>
       </div>
+      <BackToTopButton />
     </LogoPageStyle>
   );
 };

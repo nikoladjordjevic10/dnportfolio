@@ -1,6 +1,7 @@
 import React from "react";
 import InfoPageStyle from "./style";
 import HeaderSmallLogo from "../../layout/HeaderSmallLogo";
+import BackToTopButton from "../../components/BackToTopButton/BackToTopButton";
 
 const InfoPage = () => {
   return (
@@ -68,6 +69,7 @@ const InfoPage = () => {
           <img src="images/HLturquoise.png" alt="HLturquoise" />
         </div>
       </div>
+      <BackToTopButton />
     </InfoPageStyle>
   );
 };
