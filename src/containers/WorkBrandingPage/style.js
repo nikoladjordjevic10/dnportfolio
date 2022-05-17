@@ -20,6 +20,7 @@ export default styled.div`
   }
   .workBrandingPageImages {
     margin-top: 2rem;
+    /* Garden Design */
     .gardenDesignLogo {
       height: 5.5rem;
       background-color: #b8d548;
@@ -71,5 +72,74 @@ export default styled.div`
       margin-bottom: 3rem;
       text-align: center;
     }
+    /* Group Brand New */
+    .groupBrandNewLogo {
+      height: 5.5rem;
+      background-color: #cdcaca;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .groupBrandNewMemorandum {
+      padding: 2.5rem 0 0 2rem;
+    }
+    .groupBrandNewCards {
+      padding-top: 2.5rem;
+      .card1,
+      .card2,
+      .card3 {
+        display: flex;
+        width: 90%;
+      }
+      .card1 {
+        justify-content: flex-start;
+        margin-left: 2rem;
+      }
+      .card2 {
+        justify-content: center;
+      }
+      .card3 {
+        padding-top: 0.5rem;
+        justify-content: flex-end;
+      }
+    }
+    .groupBrandNewPlanner,
+    .groupBrandNewShirts {
+      padding: 2rem 0;
+    }
+    .groupBrandNewGreetingCards {
+      padding: 2rem 0;
+      width: 80%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .groupBrandNewCover {
+      padding-top: 2rem;
+      width: 80%;
+      margin: 0 auto;
+    }
+    .groupBrandNewWallpapers {
+      padding-top: 3rem;
+    }
+    .groupBrandNewFlyers {
+      padding-top: 3rem;
+      display: flex;
+      width: 80%;
+      margin: 0 auto;
+      flex-direction: column;
+      img {
+        &:nth-child(2) {
+          padding-top: 2rem;
+        }
+      }
+    }
+    .groupBrandNewDelimiter {
+      margin-top: 1rem;
+      margin-bottom: 3rem;
+      text-align: center;
+    }
+    /* KOD Concept Store */
   }
 `;

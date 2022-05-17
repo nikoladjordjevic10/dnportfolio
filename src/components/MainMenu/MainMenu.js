@@ -43,6 +43,9 @@ const MainMenu = ({ openMainMenu, setOpenMainMenu }) => {
           <Link to="/" onClick={() => setOpenMainMenu(!openMainMenu)}>
             <li>{translation.letsWorkTogether[1]}</li>
           </Link>
+          <Link to="/" onClick={() => setOpenMainMenu(!openMainMenu)}>
+            <li>{translation.shop[1]}</li>
+          </Link>
         </div>
         <div className="mainMenuLanguage">
           <span onClick={() => handleLanguage("srp")}>srb</span>

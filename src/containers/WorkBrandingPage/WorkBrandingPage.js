@@ -122,6 +122,114 @@ const WorkBrandingPage = () => {
           </div>
         </div>
         {/* GROUP BRAND NEW SECTION */}
+        <div className="groupBrandNew">
+          <div className="groupBrandNewLogo">
+            <img
+              src="images/work/branding/group-brand-new/logo.png"
+              alt="logo"
+            />
+          </div>
+
+          <div className="groupBrandNewMemorandum">
+            <img
+              src="images/work/branding/group-brand-new/memorandum.png"
+              alt="memorandum"
+            />
+          </div>
+
+          <div className="groupBrandNewCards">
+            <div className="card1">
+              <img
+                src="images/work/branding/group-brand-new/card1.png"
+                alt="card1"
+              />
+            </div>
+            <div className="card2">
+              <img
+                src="images/work/branding/group-brand-new/card2.png"
+                alt="card2"
+              />
+            </div>
+            <div className="card3">
+              <img
+                src="images/work/branding/group-brand-new/card3.png"
+                alt="card3"
+              />
+            </div>
+          </div>
+
+          <div className="groupBrandNewPlanner">
+            <img
+              src="images/work/branding/group-brand-new/planner.png"
+              alt="planner"
+            />
+          </div>
+
+          <div className="groupBrandNewGreetingCards">
+            <img
+              src="images/work/branding/group-brand-new/greetingCard1.png"
+              alt="greetingCard1"
+            />
+            <img
+              src="images/work/branding/group-brand-new/greetingCard2.png"
+              alt="greetingCard2"
+            />
+          </div>
+
+          <div className="groupBrandNewShirts">
+            <img
+              src="images/work/branding/group-brand-new/shirts.png"
+              alt="shirt1"
+            />
+          </div>
+
+          <div className="groupBrandNewCover">
+            <img
+              src="images/work/branding/group-brand-new/cover1.png"
+              alt="cover1"
+            />
+          </div>
+
+          <div className="groupBrandNewWallpapers">
+            <img
+              src="images/work/branding/group-brand-new/wallpapers.png"
+              alt="wallpapers"
+            />
+          </div>
+
+          <div className="groupBrandNewFlyers">
+            <img
+              src="images/work/branding/group-brand-new/flyer1.png"
+              alt="flyer1"
+            />
+            <img
+              src="images/work/branding/group-brand-new/flyer2.png"
+              alt="flyer2"
+            />
+          </div>
+
+          <div className="groupBrandNewCover">
+            <img
+              src="images/work/branding/group-brand-new/cover2.png"
+              alt="cover2"
+            />
+          </div>
+
+          <div className="groupBrandNewCover">
+            <img
+              src="images/work/branding/group-brand-new/cover3.png"
+              alt="cover3"
+            />
+          </div>
+
+          <div className="groupBrandNewDelimiter">
+            <img
+              src="images/work/branding/group-brand-new/delimiter.png"
+              alt="delimiter"
+            />
+          </div>
+        </div>
+        {/* GROUP BRAND NEW SECTION */}
       </div>
       <BackToTopButton />
     </WorkBrandingPageStyle>

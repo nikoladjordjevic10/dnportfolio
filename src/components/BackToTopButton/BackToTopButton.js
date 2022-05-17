@@ -12,6 +12,9 @@ const BackToTopButton = () => {
         setShowTopBtn(false);
       }
     });
+    return () => {
+      setShowTopBtn(false);
+    };
   }, []);
 
   const goToTop = () => {
