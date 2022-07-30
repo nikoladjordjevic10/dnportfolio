@@ -5,7 +5,6 @@ export default styled.div`
     position: relative;
     max-width: 100%;
     .homePageMainHeroImage {
-      padding-top: 2rem;
       position: absolute;
       top: 0;
       right: 0;

@@ -20,5 +20,10 @@ export default styled.div`
   }
   .workLogoPageImages {
     margin-top: 2rem;
+    .workLogoPageImage {
+      img {
+        width: 100%;
+      }
+    }
   }
 `;
