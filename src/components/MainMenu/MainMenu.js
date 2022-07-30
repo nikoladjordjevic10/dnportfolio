@@ -2,6 +2,7 @@ import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import MainMenuStyle from "./style";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import { updateLanguage } from "../../store/translation/actions";
 
 const MainMenu = ({ openMainMenu, setOpenMainMenu }) => {
@@ -31,21 +32,28 @@ const MainMenu = ({ openMainMenu, setOpenMainMenu }) => {
           />
         </div>
         <div className="mainMenuNavigation">
-          <Link to="/work" onClick={() => setOpenMainMenu(!openMainMenu)}>
+          <HashLink
+            smooth
+            to="/#work"
+            onClick={() => setOpenMainMenu(!openMainMenu)}
+          >
             <li>{translation.work[1]}</li>
-          </Link>
+          </HashLink>
           <Link to="/info" onClick={() => setOpenMainMenu(!openMainMenu)}>
             <li>{translation.info[1]}</li>
           </Link>
           <Link to="/contact" onClick={() => setOpenMainMenu(!openMainMenu)}>
             <li>{translation.contact[1]}</li>
           </Link>
-          <Link to="/" onClick={() => setOpenMainMenu(!openMainMenu)}>
+          <Link
+            to="/get-in-touch"
+            onClick={() => setOpenMainMenu(!openMainMenu)}
+          >
             <li>{translation.letsWorkTogether[1]}</li>
           </Link>
-          <Link to="/" onClick={() => setOpenMainMenu(!openMainMenu)}>
+          {/* <Link to="/" onClick={() => setOpenMainMenu(!openMainMenu)}>
             <li>{translation.shop[1]}</li>
-          </Link>
+          </Link> */}
         </div>
         <div className="mainMenuLanguage">
           <span onClick={() => handleLanguage("srp")}>srb</span>

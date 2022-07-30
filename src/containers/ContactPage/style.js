@@ -42,7 +42,7 @@ export default styled.div`
         }
       }
       .hlturquoise {
-        padding-top: 3.5rem;
+        padding-top: 8rem;
         padding-bottom: 2rem;
         text-align: center;
       }

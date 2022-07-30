@@ -51,7 +51,7 @@ const InfoPage = () => {
             godine. ReFESTanimacija, izložba Valjevskog potencijala.
           </p>
         </div>
-        <div className="infoPageGallery">
+        {/* <div className="infoPageGallery">
           <div className="infoPageImage">
             <img
               src="images/info/infoPageNewspaper.png"
@@ -64,7 +64,7 @@ const InfoPage = () => {
         </div>
         <div className="infoPageAbout">
           <p>Trenutno živi i stvara u Crnoj Gori.</p>
-        </div>
+        </div> */}
         <div className="hlturquoise">
           <img src="images/HLturquoise.png" alt="HLturquoise" />
         </div>

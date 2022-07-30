@@ -24,14 +24,14 @@ export default styled.div`
     .italic {
       font-style: italic;
     }
-    .infoPageGallery {
+    /* .infoPageGallery {
       padding-top: 2rem;
       .infoPageVideo {
         padding-top: 2rem;
       }
-    }
+    } */
     .hlturquoise {
-      padding-top: 0.5rem;
+      padding-top: 8rem;
       padding-bottom: 2rem;
       text-align: center;
     }

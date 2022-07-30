@@ -13,5 +13,18 @@
   },
   "shop": {
     "1": "shop"
+  },
+  "fullNameError": {
+    "1": "Please enter your full name"
+  },
+  "emailError": {
+    "1": "Please enter your e-mail",
+    "2": "E-mail must be a valid format"
+  },
+  "messageError": {
+    "1": "Please enter your message"
+  },
+  "formSubmitError": {
+    "1": "Please fill all the fields"
   }
 }

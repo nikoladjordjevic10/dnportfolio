@@ -1,10 +1,15 @@
 import styled from "styled-components";
 
 export default styled.div`
+  .homePageWrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
   .homePageMainHero {
     position: relative;
     max-width: 100%;
     .homePageMainHeroImage {
+      padding-top: 2rem;
       position: absolute;
       top: 0;
       right: 0;
@@ -12,13 +17,13 @@ export default styled.div`
         width: 100%;
       }
     }
-  }
-  .homePageWrapper {
-    width: 80%;
-    margin: 0 auto;
+    .homePageHeroTitle {
+      padding-top: 2rem;
+    }
   }
   .homePageSecondaryHero {
     width: 100%;
+    min-height: 50vh;
     position: relative;
     .homePageSecondaryHeroImage {
       position: absolute;
@@ -55,6 +60,19 @@ export default styled.div`
       position: absolute;
       top: 6rem;
       right: 0;
+    }
+  }
+  .letsWorkButton {
+    background-color: #2cbaa9;
+    width: 60%;
+    margin: 2rem auto 4rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.3rem;
+    border-radius: 0.3rem;
+    a {
+      color: white;
+      text-decoration: none;
     }
   }
 `;

@@ -13,5 +13,18 @@
   },
   "shop": {
     "1": "prodavnica"
+  },
+  "fullNameError": {
+    "1": "Please enter you full name"
+  },
+  "emailError": {
+    "1": "Unesi e-mail",
+    "2": "E-mail mora biti validnog formata"
+  },
+  "messageError": {
+    "1": "Unesi poruku"
+  },
+  "formSubmitError": {
+    "1": "Popuni sva polja"
   }
 }
