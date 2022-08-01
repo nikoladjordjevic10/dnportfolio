@@ -19,7 +19,6 @@ export default styled.div`
       input,
       textarea {
         font-family: inherit;
-        font-size: 1.3rem;
         box-sizing: border-box;
         width: 100%;
         border: none;
@@ -32,6 +31,7 @@ export default styled.div`
         color: #b4bec8;
       }
       input {
+        font-size: 1.3rem;
         padding: 0.5rem;
       }
       input + input {
@@ -40,6 +40,7 @@ export default styled.div`
       textarea {
         margin-top: 2rem;
         padding: 1rem 0.5rem;
+        font-size: 1.4rem;
       }
       .textareaWithError {
         margin-top: 0;

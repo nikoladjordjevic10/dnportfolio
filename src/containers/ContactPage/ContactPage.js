@@ -1,21 +1,27 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import ContactPageStyle from "./style";
 import HeaderSmallLogo from "../../layout/HeaderSmallLogo";
 import BackToTopButton from "../../components/BackToTopButton/BackToTopButton";
 
 const ContactPage = () => {
+  const translation = useSelector((state) => state.translation.messages);
+
   return (
     <ContactPageStyle>
       <HeaderSmallLogo />
       <div className="contactPageWrapper">
-        <div className="contactPageTitle">contact</div>
+        <div className="contactPageTitle">{translation.contact[1]}</div>
         <div className="contactPageInfo">
+          {/* Location */}
           <div className="contactPageLocation">
             <span>
               <img src="images/contact/location.png" alt="location" />
             </span>
-            Budva, Crna Gora
+            {translation.contactPageLocation[1]}
           </div>
+
+          {/* Phone */}
           <div className="contactPagePhone">
             <span>
               <img src="images/contact/phone.png" alt="phone" />
@@ -28,18 +34,24 @@ const ContactPage = () => {
               <img src="images/contact/whatsapp.png" alt="whatsapp" />
             </span>
           </div>
+
+          {/* Skype */}
           <div className="contactPageSkype">
             <span>
               <img src="images/contact/skype.png" alt="skype" />
             </span>
             dusan-neskovic
           </div>
+
+          {/* Email */}
           <div className="contactPageMail">
             <span>
               <img src="images/contact/mail.png" alt="mail" />
             </span>
             design@dusanneskovic.com
           </div>
+
+          {/* Social Networks */}
           <div className="contactPageSocials">
             <li>
               <a target="_blank" href="https://linkedin.com/in/dusanneskovic">

@@ -14,8 +14,77 @@
   "shop": {
     "1": "prodavnica"
   },
+  "send": {
+    "1": "pošalji"
+  },
+  "homePageText1": {
+    "1": "Dizajner",
+    "2": " je ",
+    "3": " kontradiktoran "
+  },
+  "homePageText2": {
+    "1": "Kombinovanjem ideja i veština, sa ",
+    "2": "minimalnom",
+    "3": " upotrebom ",
+    "4": "elemenata",
+    "5": ", stvara ",
+    "6": "jaku",
+    "7": " vizuelnu ",
+    "8": " poruku."
+  },
+  "infoPageText1": {
+    "1": "Rođen u ",
+    "2": "Valjevu, Srbija",
+    "3": "27.10.1983 god."
+  },
+  "infoPageText2": {
+    "1": "* Kao dete pokazao sklonost ka kreativnošću, izmišlja svetove i situacije, bezbrižno se igrajući."
+  },
+  "infoPageText3": {
+    "1": "Sa 5 godina polazi u likovnu školu, ",
+    "2": "srednju završava u nadi da će jednog dana postati arhitekta, ali njegov put kreće u drugu stranu i vodi ga na ",
+    "3": "Politehničku Akademiju u Beogradu.",
+    "4": " Ispostavlja se da uziva u dizajniranju više nego u projektovanju. Upisuje se na smer za grafički dizajn i tehnologiju, koju završava 2009. god, stiče zvanje ",
+    "5": "strukovni dizajner."
+  },
+  "infoPageText4": {
+    "1": "* Tokom studiranja volontira i stiče iskustvo u štamparskim i dizajn studijima."
+  },
+  "infoPageText5": {
+    "1": "Interesuje ga slikarstvo, vajarstvo, fotografija, arhitektura i tehnologija. Veliki je ",
+    "2": "ljubitelj prirode",
+    "3": " gde uglavnom pronalazi inspiraciju za svoj rad."
+  },
+  "infoPageText6": {
+    "1": "Pobeđivao je na nagradnim konkursima za brendiranje i izradu vizuelnog identiteta na internet platformama."
+  },
+  "infoPageText7": {
+    "1": "-2007 god. drugo mesto na konkursu za plakat kompanije \"Lukoil\""
+  },
+  "infoPageText8": {
+    "1": "Učestvovao je na nekoliko grupnih izložbi u zemlji."
+  },
+  "infoPageText9": {
+    "1": "*Pored dizajna pokazao je i organizatorske sposobnosti, sa grupom entuzijasta organizovao je izložbu mladih umetnika u Valjevu 2012 godine. ReFESTanimacija, izložba Valjevskog potencijala."
+  },
+  "contactPageLocation": {
+    "1": "Budva, Crna Gora"
+  },
+  "getInTouchPageTitle": {
+    "1": "kontaktiraj me"
+  },
+  "getInTouchPageMessage": {
+    "1": "Pošalji mi poruku",
+    "2": "Tvoja poruka"
+  },
+  "getInTouchPageFullName": {
+    "1": "Ime i prezime"
+  },
   "fullNameError": {
-    "1": "Please enter you full name"
+    "1": "Unesi ime i prezime"
+  },
+  "getInTouchPageEmail": {
+    "1": "Email Adresa"
   },
   "emailError": {
     "1": "Unesi e-mail",

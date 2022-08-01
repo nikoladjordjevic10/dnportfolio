@@ -24,13 +24,25 @@ const HomePage = () => {
         <div className="homePageWrapper">
           <div className="homePageHeroTitle">
             <p>
-              <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Designer</span> is a <br />{" "}
-              contradictory <br />
+              <span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                {translation.homePageText1[1]}
+              </span>
+              {translation.homePageText1[2]}
+              <br />
+              {translation.homePageText1[3]}
+              <br />
             </p>
+
             <p>
-              By combining ideas and skills, with <span>minimal</span> use of{" "}
-              <span>elements</span>, creating a <span>strong</span> visual{" "}
-              <span>message</span>.
+              {translation.homePageText2[1]}
+              <span>{translation.homePageText2[2]}</span>
+              {translation.homePageText2[3]}
+              <span>{translation.homePageText2[4]}</span>
+              {translation.homePageText2[5]}
+              <span>{translation.homePageText2[6]}</span>
+              {translation.homePageText2[7]}
+              <span>{translation.homePageText2[8]}</span>
             </p>
           </div>
         </div>

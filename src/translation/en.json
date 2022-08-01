@@ -14,6 +14,75 @@
   "shop": {
     "1": "shop"
   },
+  "send": {
+    "1": "send"
+  },
+  "homePageText1": {
+    "1": "Designer",
+    "2": " is a ",
+    "3": " contradictory "
+  },
+  "homePageText2": {
+    "1": "By combining ideas and skills, with ",
+    "2": "minimal",
+    "3": " use of ",
+    "4": "elements",
+    "5": ", creating a ",
+    "6": "strong",
+    "7": " visual ",
+    "8": " message."
+  },
+  "infoPageText1": {
+    "1": "Born in ",
+    "2": "Valjevo, Serbia",
+    "3": "on October 27, 1983."
+  },
+  "infoPageText2": {
+    "1": "* As a child, he showed a tendancy for creativity, inventing worlds and situations, playing carefree."
+  },
+  "infoPageText3": {
+    "1": "At the age of 5, he started art school, ",
+    "2": "finished high school in the hope of one day becoming an architect, but his path took a different direction and led him to the ",
+    "3": "Polytechnic Academy in Belgrade.",
+    "4": " Turns out he enjoys designing more than designing. He enrolled in the course for graphic design and technology, which he finished in 2009, earning the title of ",
+    "5": "professional designer."
+  },
+  "infoPageText4": {
+    "1": "* During his studies, he volunteers and gains experience in printing companies and design studios."
+  },
+  "infoPageText5": {
+    "1": "He is interested in painting, sculpture, photography, architecture and technology. He is a great ",
+    "2": "fan of nature",
+    "3": " where he mostly finds inspiration for his work."
+  },
+  "infoPageText6": {
+    "1": "He won competitions awards for branding and creating a visual identity on internet platforms."
+  },
+  "infoPageText7": {
+    "1": "- 2007 second place in the contest for the poster of the company \"Lukoil\""
+  },
+  "infoPageText8": {
+    "1": "He participated in several group exhibitions in the country."
+  },
+  "infoPageText9": {
+    "1": "*In addition to design, he also showed organizational skills, with a group of enthusiasts he organized an exhibition of young artists in Valjevo in 2012. ReFESTanimation, exhibition of Valjevo potential."
+  },
+  "contactPageLocation": {
+    "1": "Budva, Montenegro"
+  },
+  "getInTouchPageTitle": {
+    "1": "get in touch"
+  },
+  "getInTouchPageMessage": {
+    "1": "Leave me a message",
+    "2": "Your message"
+  },
+  "getInTouchPageFullName": {
+    "1": "Full name"
+  },
+  "getInTouchPageEmail": {
+    "1": "Email Address"
+  },
   "fullNameError": {
     "1": "Please enter your full name"
   },

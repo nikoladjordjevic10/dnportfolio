@@ -1,55 +1,44 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import InfoPageStyle from "./style";
 import HeaderSmallLogo from "../../layout/HeaderSmallLogo";
 import BackToTopButton from "../../components/BackToTopButton/BackToTopButton";
 
 const InfoPage = () => {
+  const translation = useSelector((state) => state.translation.messages);
+
   return (
     <InfoPageStyle>
       <HeaderSmallLogo />
       <div className="infoPageWrapper">
-        <div className="infoPageTitle">info</div>
+        <div className="infoPageTitle">{translation.info[1]}</div>
         <div className="infoPageAbout">
           <p>
-            Rođen u <span>Valjevu, Srbija</span> <br />
-            27.10.1983 god.
+            {translation.infoPageText1[1]}
+            <span>{translation.infoPageText1[2]}</span> <br />
+            {translation.infoPageText1[3]}
           </p>
+          <p>{translation.infoPageText2[1]}</p>
           <p>
-            * Kao dete pokazao sklonost ka kreativnošću, izmišlja svetove i
-            situacije, bezbrižno se igrajući.
+            <span>{translation.infoPageText3[1]}</span>
+            {translation.infoPageText3[2]}
+            <span>{translation.infoPageText3[3]}</span>
+            {translation.infoPageText3[4]}
+            <span>{translation.infoPageText3[5]}</span>
           </p>
-          <p>
-            <span>Sa 5 godina polazi u likovnu školu, </span>srednju završava u
-            nadi da će jednog dana postati arhitekta, ali njegov put kreće u
-            drugu stranu i vodi ga na{" "}
-            <span>Politehničku Akademiju u Beogradu.</span> Ispostavlja se da
-            uziva u dizajniranju više nego u projektovanju. Upisuje se na smer
-            za grafički dizajn i tehnologiju, koju završava 2009. god, stiče
-            zvanje <span>strukovni dizajner.</span>
-          </p>
-          <p>
-            * Tokom studiranja volontira i stiče iskustvo u štamparskim firmama
-            i dizajn studijima.
-          </p>
+          <p>{translation.infoPageText4[1]}</p>
           <br />
           <p>
-            Interesuje ga slikarstvo, vajarstvo, fotografija, arhitektura i
-            tehnologija. Veliki je <span>ljubitelj prirode</span> gde uglavnom
-            pronalazi inspiraciju za svoj rad.
+            {translation.infoPageText5[1]}
+            <span>{translation.infoPageText5[2]}</span>
+            {translation.infoPageText5[3]}
           </p>
           <br />
-          <p>
-            Pobeđivao je na nagradnim konkursima za brendiranje i izradu
-            vizuelnog identiteta na internet platformama.
-          </p>
-          <p>-2007 god. drugo mesto na konkursu za plakat kompanije "Lukoil"</p>
-          <p>Učestvovao je na nekoliko grupnih izložbi u zemlji.</p>
+          <p>{translation.infoPageText6[1]}</p>
+          <p>{translation.infoPageText7[1]}</p>
+          <p>{translation.infoPageText8[1]}</p>
           <br />
-          <p className="italic">
-            *Pored dizajna pokazao je i organizatorske sposobnosti, sa grupom
-            entuzijasta organizovao je izložbu mladih umetnika u Valjevu 2012
-            godine. ReFESTanimacija, izložba Valjevskog potencijala.
-          </p>
+          <p className="italic">{translation.infoPageText9[1]}</p>
         </div>
         {/* <div className="infoPageGallery">
           <div className="infoPageImage">

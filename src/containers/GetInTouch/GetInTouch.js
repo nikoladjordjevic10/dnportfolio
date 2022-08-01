@@ -81,14 +81,21 @@ const GetInTouch = () => {
     <GetInTouchStyle>
       <HeaderSmallLogo />
       <div className="getInTouchPageWrapper">
-        <div className="getInTouchPageTitle">get in touch</div>
-        <p className="getInTouchPageSubtitle">Leave me a message</p>
+        <div className="getInTouchPageTitle">
+          {translation.getInTouchPageTitle[1]}
+        </div>
+        <p className="getInTouchPageSubtitle">
+          {translation.getInTouchPageMessage[1]}
+        </p>
+
+        {/* Form Starts */}
         <form className="getInTouchPageForm" onSubmit={handleSubmit}>
+          {/* Full name */}
           <input
             className={`${errors.fullNameError ? "errorBorder" : ""}`}
             type="text"
             name="fullName"
-            placeholder="Full name"
+            placeholder={translation.getInTouchPageFullName[1]}
             value={fullName}
             onChange={handleChange}
           />
@@ -96,11 +103,12 @@ const GetInTouch = () => {
             <div className="errorMsg">{errors.fullNameError}</div>
           )}
 
+          {/* Email Address */}
           <input
             className={`${errors.emailError ? "errorBorder" : ""}`}
             type="text"
             name="email"
-            placeholder="Email Address"
+            placeholder={translation.getInTouchPageEmail[1]}
             value={email}
             onChange={handleChange}
           />
@@ -108,6 +116,7 @@ const GetInTouch = () => {
             <div className="errorMsg">{errors.emailError}</div>
           )}
 
+          {/* Your Message */}
           <textarea
             className={`${
               errors.messageError
@@ -117,7 +126,7 @@ const GetInTouch = () => {
                 : ""
             }`}
             name="message"
-            placeholder="Your Message"
+            placeholder={translation.getInTouchPageMessage[2]}
             rows="7"
             value={message}
             onChange={handleChange}
@@ -125,8 +134,11 @@ const GetInTouch = () => {
           {errors.messageError && (
             <div className="errorMsg">{errors.messageError}</div>
           )}
-          <button>send</button>
+
+          {/* Send Button */}
+          <button>{translation.send[1]}</button>
         </form>
+        {/* Form Ends */}
       </div>
     </GetInTouchStyle>
   );

@@ -18,10 +18,14 @@ const MainMenu = ({ openMainMenu, setOpenMainMenu }) => {
       <div className="mainMenuWrapper">
         <div className="mainMenuLogo">
           <div className="mainMenuLogoImage">
-            <img src="images/logoSmallWhite.png" alt="logoSmallWhite" />
+            <Link to="/" onClick={() => setOpenMainMenu(!openMainMenu)}>
+              <img src="images/logoSmallWhite.png" alt="logoSmallWhite" />
+            </Link>
           </div>
           <div className="mainMenuLogoText">
-            <img src="images/logoTextWhite.png" alt="logoTextWhite" />
+            <Link to="/" onClick={() => setOpenMainMenu(!openMainMenu)}>
+              <img src="images/logoTextWhite.png" alt="logoTextWhite" />
+            </Link>
           </div>
         </div>
         <div className="mainMenuCloseIcon">
